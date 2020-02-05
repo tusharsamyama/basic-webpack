@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "build": "npm run webpack && npm run copy",
+    "webpack": "webpack",
+    "copy": "cp ./src/index.html ./dist/index.html"
+  },
+  "devDependencies": {
+    "css-loader": "^3.4.2",
+    "extract-css-chunks-webpack-plugin": "^4.7.4",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "name": "webpack-session",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "dependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

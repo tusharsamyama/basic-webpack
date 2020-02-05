@@ -1,0 +1,15 @@
+.watch {
+    font-size: 30px;
+}
+
+#hr {
+    color: red;
+}
+
+#min {
+    color: green;
+}
+
+#sec {
+    color: blue;
+}
